@@ -4,6 +4,7 @@ build:
 	gcc main.c -o tools
 	@echo "Build finished"
 run:
+	gcc main.c -o tools
 	tools.exe
 clean:
 	del tools.exe
